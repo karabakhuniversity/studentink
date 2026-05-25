@@ -4,10 +4,18 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Student Ink — Karabakh University Digital Platform</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    .hero__title--montserrat {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+  </style>
 </head>
 <body class="page-wrap">
 
@@ -32,7 +40,8 @@
         <li><a href="content.html?type=book" class="header__nav-link" data-type="book">Books</a></li>
         <li><a href="content.html?type=story" class="header__nav-link" data-type="story">Stories</a></li>
         <li><a href="content.html?type=essay" class="header__nav-link" data-type="essay">Essays</a></li>
-        <li><a href="content.html?type=article" class="header__nav-link" data-type="article">Journals &amp; Articles</a></li>
+        <li><a href="content.html?type=journal" class="header__nav-link" data-type="journal">Journals</a></li>
+        <li><a href="content.html?type=article" class="header__nav-link" data-type="article">Articles</a></li>
         <li><a href="content.html?type=magazine" class="header__nav-link" data-type="magazine">Magazines</a></li>
         <li><a href="content.html?type=student-spotlight" class="header__nav-link" data-type="student-spotlight">Student Spotlight</a></li>
         <li><a href="https://karabakh.edu.az/" target="_blank" rel="noopener" class="header__nav-link header__nav-link--ext">
@@ -50,7 +59,7 @@
   <div class="hero__bg" aria-hidden="true"></div>
   <div class="container hero__inner">
     <div class="hero__label">Academic Resource Portal</div>
-    <h1 class="hero__title" id="heroTitle">
+    <h1 class="hero__title hero__title--montserrat" id="heroTitle">
       Your Stories. Your Voice.<br/>
       Your Ink. <em>STUDENT INK</em>
     </h1>
@@ -74,7 +83,7 @@
       </div>
       <div class="hero__stat-div" aria-hidden="true"></div>
       <div class="hero__stat">
-        <span class="hero__stat-n">6</span>
+        <span class="hero__stat-n">7</span>
         <span class="hero__stat-l">Content Types</span>
       </div>
       <div class="hero__stat-div" aria-hidden="true"></div>
@@ -117,7 +126,7 @@
           <span class="footer__brand-name">Karabakh University</span>
           <span class="footer__brand-sub">Student Ink — Digital Platform</span>
           <p class="footer__brand-desc">
-            An academic digital library providing students and faculty with open access to books, essays, stories, journals, articles, magazines, and creative works.
+            An academic digital platform providing students and faculty with open access to books, essays, stories, journals, articles, magazines, and creative works.
           </p>
 
           <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">
@@ -150,7 +159,8 @@
             <li><a href="content.html?type=book">Books</a></li>
             <li><a href="content.html?type=story">Stories</a></li>
             <li><a href="content.html?type=essay">Essays</a></li>
-            <li><a href="content.html?type=article">Journals &amp; Articles</a></li>
+            <li><a href="content.html?type=journal">Journals</a></li>
+            <li><a href="content.html?type=article">Articles</a></li>
             <li><a href="content.html?type=magazine">Magazines</a></li>
             <li><a href="content.html?type=student-spotlight">Student Spotlight</a></li>
           </ul>

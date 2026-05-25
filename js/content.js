@@ -21,7 +21,8 @@ const yearEl = document.getElementById('footerYear');
 
 const CONTENT_TYPES = [
   { value: 'book', label: 'Books' },
-  { value: 'article', label: 'Journals & Articles' },
+  { value: 'journal', label: 'Journals' },
+  { value: 'article', label: 'Articles' },
   { value: 'magazine', label: 'Magazines' },
   { value: 'essay', label: 'Essays' },
   { value: 'story', label: 'Stories' },
@@ -31,7 +32,8 @@ const CONTENT_TYPES = [
 const TYPE_META = {
   all: { label: 'All Content', desc: 'Browse the complete digital library' },
   book: { label: 'Books', desc: 'Academic textbooks and reference works' },
-  article: { label: 'Journals & Articles', desc: 'Academic journals, papers, and articles' },
+  journal: { label: 'Journals', desc: 'Academic journals and scholarly publications' },
+  article: { label: 'Articles', desc: 'Research articles and written features' },
   magazine: { label: 'Magazines', desc: 'University and student magazine issues' },
   essay: { label: 'Essays', desc: 'Student and faculty essays' },
   story: { label: 'Stories', desc: 'Creative fiction and short stories' },
